@@ -1,4 +1,4 @@
-let choices = document.querySelectorAll(".choise");
+ let choices = document.querySelectorAll(".choise");
 let msg = document.querySelector("#msg");
 let usercon = document.querySelector("#user");
 let comcon = document.querySelector("#com");
