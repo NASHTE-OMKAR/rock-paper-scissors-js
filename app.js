@@ -8,7 +8,14 @@ let ycmr = document.querySelector("#ycm");
 let scb = document.querySelector(".score-bord");
 let usercn = 0, comcn = 0;
 
-
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        const lod = document.getElementById("loading");
+        if (lod) {
+            lod.style.display = "none";
+        }
+    }, 2000);
+})
 let genecomp = () => {
     let ranid = Math.floor(Math.random() * 3);
     let arr = ["paper", "rock", "scss"];
